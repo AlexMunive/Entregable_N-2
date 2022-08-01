@@ -7,7 +7,6 @@ function App() {
 
   const [coords, setCoords] = useState()
   
-
   useEffect(()=>{
 
     const success=pos=>{
@@ -21,8 +20,6 @@ function App() {
 
     navigator.geolocation.getCurrentPosition(success)
   },[])
-
-   
 
   return (
     <div className="App climate" >
