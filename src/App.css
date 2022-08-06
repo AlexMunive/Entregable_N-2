@@ -53,7 +53,7 @@ body{
 }
 .climate{
     background: url("./img/Clouds.gif");
-    /* background: url(`./img/${weather?.weather[0].icon}.gif`); */
+    /* background: url(`./img/${weather?.weather[0].main}.gif`); */
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
